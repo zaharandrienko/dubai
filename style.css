@@ -698,8 +698,8 @@ header nav li:last-child {
 
 footer {
 	width: 100%;
-	height: 398px;
-	background-color: #011638;
+	height: 333px;
+	background-color: #000F28;
 }
 
 .footer-content {
@@ -710,11 +710,29 @@ footer {
 	color: #F5F5F5;
 }
 .footer-item img{
-	width: 155px;
-	margin-bottom: 20px;
+	width: 155px
+}
+.footer-item h5{
+	font-size: 16px;
+	font-weight: 400;
+	color: #61789D;
+	margin-top: 10px;
+}
+.footer-item h3{
+	font-size: 25px;
+	font-weight: 600;
+	color: #ffffff;
+	margin-bottom: 15px;
 }
 .footer-item p{
 	font-size: 16px;
-	color: #61789D;
-	margin-top: 10px;
+	font-weight: 400;
+	color: #ffffff;
+	margin-top: 15px;
+}
+.contacts{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	column-gap: 60px;
+	margin-top: 70px;
 }
