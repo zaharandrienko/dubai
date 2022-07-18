@@ -29,9 +29,9 @@ a {
 	cursor: pointer;
 }
 
-li {
+/* li {
 	cursor: pointer;
-}
+} */
 textarea:focus, input:focus{
     outline: none;
 }
@@ -735,4 +735,11 @@ footer {
 	grid-template-columns: 1fr 1fr;
 	column-gap: 60px;
 	margin-top: 70px;
+}
+.top{
+	position: absolute;
+	right: 0;
+	top: 80px;
+	width: 13px;
+	height: 137px;
 }
